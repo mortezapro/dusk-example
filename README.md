@@ -56,7 +56,7 @@ For more information, contact the project's authors at [email protected]
 ### Examples
 
 Here is an example of how you can use the project's authentication features:
-PHP
+```
 use Illuminate\Support\Facades\Auth;
 
 // Authenticate a user
@@ -79,11 +79,13 @@ if (Gate::allows('edit-posts')) {
 } else {
     // The user does not have the permission to edit posts
 }
+```
 Use code with caution. Learn more
 ## Tips
 
-When writing your README.md file, make sure to use clear and concise language.
-Use headings and subheadings to organize your information.
-Use screenshots or code examples to illustrate your points.
-Proofread your README.md file carefully before publishing it.
+- When writing your README.md file, make sure to use clear and concise language.
+- Use headings and subheadings to organize your information.
+- Use screenshots or code examples to illustrate your points.
+- Proofread your README.md file carefully before publishing it.
+
 I hope this helps!
